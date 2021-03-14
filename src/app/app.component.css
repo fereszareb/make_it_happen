@@ -1,0 +1,80 @@
+
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 700;
+    font-size: 14px !important;
+    text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-item {
+    margin : 0 15px;
+}
+.fixed{
+    position: fixed !important;
+    z-index: 999;
+    width: 100%;
+}
+.button-contact{
+    width: 200px;
+    height: 50px;
+    background-color: #343a40;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    border-radius: 10px 0 0 30px;
+    color: white;
+    padding: 10px 10px 10px 20px;
+}
+.button-contact i, .button-contact h4{
+    margin: 10px;
+    display: inline;
+}
+.button-contact i{
+    font-size: 25px;
+}
+@media (max-width: 990px){
+    .button-contact{
+        display: none;
+    }
+}
+.decalage{
+    top: -30px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition: all 550ms ease;
+    -moz-transition: all 550ms ease;
+    -ms-transition: all 550ms ease;
+    -o-transition: all 550ms ease;
+    transition: all 550ms ease;
+}
+.dec1{
+    left: -200px;
+    opacity: 0;
+}
+.dec2{
+    top: 50px;
+    opacity: 0;
+}
+.dec3{
+    right: -100px;
+    opacity: 0;
+}
+.mt-300{
+    margin-top: 300px;
+}
+.bg-ultra-dark{
+    background-color: #1c1e20!important;
+}
+.hover-shadow:hover{
+    -webkit-transition: all 550ms ease;
+    -moz-transition: all 550ms ease;
+    -ms-transition: all 550ms ease;
+    -o-transition: all 550ms ease;
+    transition: all 550ms ease;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.test{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+
+}
